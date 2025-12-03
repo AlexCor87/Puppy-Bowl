@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <script src="index.js" defer></script>
+
+    <title>Puppy Bowl Admin App</title>
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
-    <div id="app"></div>
+    <h1>Puppy Bowl Admin App</h1>
+
+    <section>
+      <h2>All Puppies</h2>
+      <div id="player-list">Loading puppies...</div>
+    </section>
+
+    <section>
+      <h2>Selected Puppy</h2>
+      <div id="details"></div>
+    </section>
+
+    <section>
+      <h2>Add New Puppy</h2>
+      <form id="add-form">
+        <label>
+          Name:
+          <input type="text" id="new-name" required />
+        </label>
+        <br /><br />
+
+        <label>
+          Breed:
+          <input type="text" id="new-breed" required />
+        </label>
+        <br /><br />
+
+        <button type="submit">Add Puppy</button>
+      </form>
+    </section>
+
+    <script src="./index.js"></script>
   </body>
 </html>

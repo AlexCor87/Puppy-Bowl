@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+#details img {
+  width: 160px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+#add-form {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 12px;
+  max-width: 350px;
+}
+
+input {
+  width: 75%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #999;
+}
+
+button {
+  background-color: #4caf50;
+  padding: 8px 14px;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #45a049;
+}
