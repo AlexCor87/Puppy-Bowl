@@ -4,6 +4,30 @@ body {
   line-height: 1.6;
 }
 
+.player-card {
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.player-card:hover {
+  transform: scale(1.03);
+  background-color: #f7f7f7;
+}
+
+.player-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
 #details img {
   width: 160px;
   border-radius: 12px;
